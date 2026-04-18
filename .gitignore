@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+
+# Coverage & testing
+coverage/
+.nyc_output/
+
+# Cache
+.npm
+.eslintcache
+.parcel-cache
+.cache/
+
+# Uploads / user-generated content
+uploads/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# TypeScript (if migrated later)
+*.tsbuildinfo
+
+# Docker
+.dockerignore
+
+# Railway / deployment
+.railway/
